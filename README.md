@@ -11,3 +11,8 @@ Simple analysis process, configure the required environment by yourself.
 - Get less variation in the number of homologous genes and more species with homologous genes.
 - Mainly use step1_deal_orthohmm_gene_count.py script to calculate orthohmm_gene_count.txt and then extract cds sequence.
 
+----
+
+####  
+- Make all command to get best unique homologous gene.
+- Improve cds sequences whose length is not a multiple of three.
