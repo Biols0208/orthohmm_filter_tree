@@ -22,3 +22,6 @@ Simple analysis process, configure the required environment by yourself.
 
 #### step3_OMM_MACSE.sh
 - [OMM_MACSE](https://www.agap-ge2pop.org/macse/pipeline-documentation/): Multiple Alignment of Coding SEquences Accounting for Frameshifts and Stop Codons
+
+#### step4_FastTree.sh
+- Constructing gene tree
