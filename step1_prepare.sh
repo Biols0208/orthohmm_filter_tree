@@ -1,5 +1,5 @@
 ## calculate
-python step1_deal_orthohmm_gene_count.py orthohmm_gene_count.txt orthohmm_gene_count.txt.out1
+python deal_orthohmm_gene_count.py orthohmm_gene_count.txt orthohmm_gene_count.txt.out1
 
 ## StdDev<1 && Species_Present_Percent>90
 awk '$69<1 && $(NF-2)>90' orthohmm_gene_count.txt.out1 > orthohmm_gene_count.txt.out1.deal1
