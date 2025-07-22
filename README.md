@@ -1,5 +1,5 @@
 # orthohmm_filter_tree
-Process the results output by orthohmm software.
+Process the results output by [orthohmm](https://github.com/JLSteenwyk/orthohmm) software.
 
 Filter orthogroups and then infer the phylogenetic tree.
 
