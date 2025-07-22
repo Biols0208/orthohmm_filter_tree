@@ -23,5 +23,11 @@ Simple analysis process, configure the required environment by yourself.
 #### step3_OMM_MACSE.sh
 - [OMM_MACSE](https://www.agap-ge2pop.org/macse/pipeline-documentation/): Multiple Alignment of Coding SEquences Accounting for Frameshifts and Stop Codons
 
+----
+
 #### step4_FastTree.sh
 - Constructing gene tree
+
+----
+
+Finally, inferring species trees from gene trees by [astral-pro3](https://github.com/chaoszhang/ASTER) or [tree-qmc](https://github.com/molloy-lab/TREE-QMC).
