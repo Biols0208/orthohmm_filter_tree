@@ -26,7 +26,7 @@ Simple analysis process, configure the required environment by yourself.
 ----
 
 #### step4_FastTree.sh
-- Constructing gene tree
+- Constructing gene trees.
 
 ----
 
