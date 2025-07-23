@@ -31,3 +31,5 @@ Simple analysis process, configure the required environment by yourself.
 ----
 
 Finally, inferring species trees from gene trees by [astral-pro3](https://github.com/chaoszhang/ASTER) or [tree-qmc](https://github.com/molloy-lab/TREE-QMC).
+
+Of course, you can use 4d site sequences for analysis, or connect all multiple sequence alignment files into supergene for analysis ().
