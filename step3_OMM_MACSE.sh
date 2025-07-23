@@ -8,3 +8,9 @@ done
 parallel --jobs 48 bash -c {} < all_OMM_MACSE.sh
 
 # Or split all_OMM_MACSE.sh and run
+
+## rename gene_name to species_name
+for i in $(cat orthohmm_gene_count.txt.out1.deal1.group)
+do
+seqkit seq -w 0 ${i}.best | awk '{if ($1~/>/) print ">"$2; else print $0}' > ${i}.best.fa
+done
