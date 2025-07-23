@@ -8,7 +8,7 @@ awk '{print $1}' orthohmm_gene_count.txt.out1.deal1 | sed 's/://g' > orthohmm_ge
 ## get cds sequence from all cds file
 [ -d cds ] || mkdir cds
 
-## all_species_in_one.cds.fa format (you can use bioawk )
+## all_species_in_one.cds.fa format (you can use bioawk https://github.com/lh3/bioawk )
 ## >gene_name species
 ## AATTGGCCC
 
